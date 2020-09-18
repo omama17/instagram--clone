@@ -1,0 +1,30 @@
+.imageupload{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom:10px ;
+    
+   
+}
+.imageupload__progress{
+    width: 100%;
+
+}
+.app__header{
+    background-color: white;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+    object-fit: contain;
+    display: flex;
+    justify-content: space-between;
+}
+.app__headerImage{
+    object-fit: contain;
+}
+.app__signup{
+    display: flex;
+    flex-direction: column;
+}
